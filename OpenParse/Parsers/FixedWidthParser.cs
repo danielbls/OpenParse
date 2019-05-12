@@ -14,7 +14,7 @@ namespace OpenParse.Parsers
     class FixedWidthParser<T> where T : new()
     {
         private Queue<T> FieldList { get; set; }
-        private Queue<Row> Rows { get; set; }
+
         public FixedWidthParser()
         {
             FieldList = new Queue<T>();
